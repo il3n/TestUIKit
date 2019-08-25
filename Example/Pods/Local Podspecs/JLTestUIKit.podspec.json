@@ -19,7 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "JLTestUIKit/Classes/*.{h,m,mm}",
-  "vendored_frameworks": "JLTestUIKit/Classes/*.framework",
   "resource_bundles": {
     "Resources": "JLTestUIKit/Classes/*.framework/**/*.bundle"
   },

@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'JLTestUIKit/Classes/*.{h,m,mm}'
   
-  s.vendored_frameworks = 'JLTestUIKit/Classes/*.framework'
-  s.resource_bundles = {'Resources' => 'JLTestUIKit/Classes/*.framework/**/*.bundle'}
+  #s.vendored_frameworks = 'JLTestUIKit/Classes/*.framework'
+  #s.resource_bundles = {'Resources' => 'JLTestUIKit/Classes/*.framework/**/*.bundle'}
   s.frameworks = 'CoreLocation','QuartzCore','OpenGLES','SystemConfiguration','CoreGraphics','Security','CoreTelephony'
   s.libraries = 'sqlite3.0'
 
