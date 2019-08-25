@@ -1,0 +1,6 @@
+framework module JLTestUIKit {
+  umbrella header "JLTestUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

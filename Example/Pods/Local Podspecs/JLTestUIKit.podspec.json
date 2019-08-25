@@ -1,0 +1,45 @@
+{
+  "name": "JLTestUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of JLTestUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jeelun/TestUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuailelaojia17@126.com": "li"
+  },
+  "source": {
+    "git": "git@github.com:jeelun/TestUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JLTestUIKit/Classes/*.{h,m,mm}",
+  "vendored_frameworks": "JLTestUIKit/Classes/*.framework",
+  "resource_bundles": {
+    "Resources": "JLTestUIKit/Classes/*.framework/**/*.bundle"
+  },
+  "frameworks": [
+    "CoreLocation",
+    "QuartzCore",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Security",
+    "CoreTelephony"
+  ],
+  "libraries": "sqlite3.0",
+  "public_header_files": "JLTestUIKit/Classes/*.h",
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "JLTestFoundation": [
+
+    ]
+  }
+}

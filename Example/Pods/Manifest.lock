@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - JLTestFoundation (0.2.0):
+    - AFNetworking
+    - JLTestFoundation/JLSub (= 0.2.0)
+  - JLTestFoundation/JLSub (0.2.0):
+    - AFNetworking
+  - JLTestUIKit (0.1.0):
+    - JLTestFoundation
+    - SDWebImage
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+
+DEPENDENCIES:
+  - JLTestUIKit (from `../`)
+
+SPEC REPOS:
+  https://gitee.com/jeelun/TestSpec.git:
+    - JLTestFoundation
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  JLTestUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JLTestFoundation: 350c813e01970d91c3523a95d7f11ef29fd5fd40
+  JLTestUIKit: dec2baa1411ebc7cf5d2508ae5e292cb35c187de
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+
+PODFILE CHECKSUM: 16923d908e30aa6c8e82cf11c09ad2d94acd5952
+
+COCOAPODS: 1.7.5
