@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JLTestUIKit_Example' do
+  pod 'JLTestUIKit', :path => '../'
+
+  target 'JLTestUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
